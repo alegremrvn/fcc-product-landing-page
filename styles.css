@@ -1,0 +1,8 @@
+#features {
+  display: flex;
+}
+
+#nav-bar {
+  margin-top: 0;
+  position: fixed;
+}
