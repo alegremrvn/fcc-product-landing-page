@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+img {
+  max-width: 400px;
+  width: 100%;
+}
+
+nav {
+  padding: 5px;
+  overflow: hidden;
+}
+
+a {
+  float: right;
+  display: block;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 20px auto;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  min-width: 250px;
+  width: 25%;
+  height: 2rem;
+  font-size: 1.2rem;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  background-color: #f1c40f;
+  border: none;
+  padding: 10px;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin: 50px auto;
+  gap: 20px;
+  width: 700px;
+}
+
+.fa-3x {
+  color: #ff8c00;
+}
+
+#features div :first-child {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin: 60px auto;
+  width: 60%;
+}
+
+.card {
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
+.card * {
+  margin: 15px;
+}
+
+#pricing .card :first-child {
+  margin-bottom: 50px;
+  background-color: #dddddd;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+footer {
+  background-color: #dddddd;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer p {
+  display: block;
+  float: right;
+}
