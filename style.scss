@@ -17,7 +17,7 @@ nav {
   overflow: hidden;
 }
 
-a {
+.nav-btn {
   float: right;
   display: block;
   padding: 10px 10px;
@@ -107,4 +107,23 @@ footer ul li {
 footer p {
   display: block;
   float: right;
+}
+
+dialog {
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 3px solid black;
+  position: fixed;
+  top: 50px;
+  padding: 40px;
+}
+
+dialog form button {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 150px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
 }

@@ -10,13 +10,22 @@
 </head>
 
 <body>
+  <dialog open>
+    <p>Hi. Thank you for visiting this resource. With this webpage, I tried to recreate 
+      <a href="https://product-landing-page.freecodecamp.rocks/" target="_blank">fCC's product landing page</a>.
+    </p>
+    <form method="dialog">
+      <button>OK</button>
+    </form>
+  </dialog>
+
   <nav>
     <img id="logo" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
       alt="company logo">
 
-    <a href="#pricing">Pricing</a>
-    <a href="#howitworks">How It Works</a>
-    <a href="#features">Features</a>
+    <a class="nav-btn" href="#pricing">Pricing</a>
+    <a class="nav-btn" href="#howitworks">How It Works</a>
+    <a class="nav-btn" href="#features">Features</a>
   </nav>
 
   <main>
@@ -77,9 +86,9 @@
 
   <footer>
     <ul>
-      <li><a href="#">Contract</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Privacy</a></li>
+      <li><a class="nav-btn" href="#">Contract</a></li>
+      <li><a class="nav-btn" href="#">Terms</a></li>
+      <li><a class="nav-btn" href="#">Privacy</a></li>
     </ul>
     <p>Copyright 2016, Original Trombones</p>
   </footer>
